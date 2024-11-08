@@ -37,6 +37,7 @@ services:
     container_name: kibana
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - SERVER_PUBLICBASEURL=https://elk.fastbundle.info  # Set your public URL here
 #      - ELASTICSEARCH_USERNAME=kibana
 #      - ELASTICSEARCH_PASSWORD=rbr12345
     ports:
